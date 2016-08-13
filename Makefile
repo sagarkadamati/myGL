@@ -14,3 +14,5 @@ clean:
 
 setup:
 	@sudo apt-get install -y libsdl2-dev libglew-dev libglm-dev mesa-utils
+	@sudo apt-get install -y freeglut3-dev
+	@sudo apt-get install -y libglfw3-dev

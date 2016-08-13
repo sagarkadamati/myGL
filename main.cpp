@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
 
 	while(!display.IsClosed())
 	{
-		display.Clear(1.0f, 1.0f, 1.0f, 1.0f);
+		display.Clear(0.0f, 0.0f, 0.0f, 0.0f);
 
 		float sinCounter = sinf(counter);
 		float cosCounter = cosf(counter);
